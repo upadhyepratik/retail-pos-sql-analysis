@@ -1,0 +1,121 @@
+{
+  "name": "Retail Profitability & Customer Analytics — Clean Enterprise",
+  "dataColors": [
+    "#4776A8",
+    "#168A83",
+    "#23395B",
+    "#64748B",
+    "#8FA8C8",
+    "#6FB7B0",
+    "#AAB6C5",
+    "#D6A85F"
+  ],
+  "background": "#F4F6F9",
+  "foreground": "#23395B",
+  "tableAccent": "#4776A8",
+  "good": "#168A83",
+  "neutral": "#64748B",
+  "bad": "#C65D5D",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [
+          {
+            "color": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            },
+            "transparency": 0
+          }
+        ],
+        "border": [
+          {
+            "show": false,
+            "color": {
+              "solid": {
+                "color": "#DCE2EA"
+              }
+            },
+            "radius": 6
+          }
+        ],
+        "visualHeader": [
+          {
+            "show": false
+          }
+        ],
+        "title": [
+          {
+            "fontFamily": "Segoe UI",
+            "fontSize": 13,
+            "fontColor": {
+              "solid": {
+                "color": "#23395B"
+              }
+            },
+            "bold": true,
+            "alignment": "left"
+          }
+        ],
+        "labels": [
+          {
+            "fontFamily": "Segoe UI",
+            "fontSize": 10,
+            "color": {
+              "solid": {
+                "color": "#64748B"
+              }
+            }
+          }
+        ],
+        "categoryAxis": [
+          {
+            "labelColor": {
+              "solid": {
+                "color": "#64748B"
+              }
+            },
+            "labelFontFamily": "Segoe UI",
+            "labelFontSize": 10,
+            "gridlineColor": {
+              "solid": {
+                "color": "#DCE2EA"
+              }
+            }
+          }
+        ],
+        "valueAxis": [
+          {
+            "labelColor": {
+              "solid": {
+                "color": "#64748B"
+              }
+            },
+            "labelFontFamily": "Segoe UI",
+            "labelFontSize": 10,
+            "gridlineColor": {
+              "solid": {
+                "color": "#DCE2EA"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "page": {
+      "*": {
+        "background": [
+          {
+            "color": {
+              "solid": {
+                "color": "#F4F6F9"
+              }
+            },
+            "transparency": 0
+          }
+        ]
+      }
+    }
+  }
+}

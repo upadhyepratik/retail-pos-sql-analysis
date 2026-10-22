@@ -1,0 +1,36 @@
+﻿# Local datasets — do not publish without licence verification
+data/*
+!data/README.md
+*.csv
+*.xlsx
+*.xls
+
+# Local database files and exports
+*.sqlitedb
+*.sqlite
+*.sqlite3
+*.dump
+*.backup
+
+# Python
+.venv/
+venv/
+__pycache__/
+.ipynb_checkpoints/
+*.py[cod]
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Editor and operating-system files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Power BI local backup and temporary files
+*.bak
+~$*.pbix
