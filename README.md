@@ -8,6 +8,30 @@ Retail sales growth does not necessarily translate into higher profit. This proj
 
 The workflow combines SQL-based analysis, Python data validation, and an interactive Power BI report. Findings are translated into practical business recommendations while distinguishing observed relationships from proven causes.
 
+## Dashboard Preview
+
+The Power BI report presents sales performance, profitability trends, product-level insights, discount analysis, and customer segmentation across two interactive pages.
+
+### Page 1 — Sales & Profitability Overview
+
+![Sales and Profitability Overview](dashboard/screenshots/Retail_Profitability_Customer_Analytics%201%20of%202.png)
+
+Highlights:
+- Six core business KPIs
+- Monthly sales and profit trends
+- Sales by product category and region
+
+### Page 2 — Profitability & Customer Insights
+
+![Profitability and Customer Insights](dashboard/screenshots/Retail_Profitability_Customer_Analytics%202%20of%202.png)
+
+Highlights:
+- Profitability by product sub-category
+- Profit by discount band
+- Sales and profit across RFM customer segments
+
+The report is built in Power BI using data from PostgreSQL.
+
 ## Business Questions
 
 - How do sales, profit, and profit margin change over time?
